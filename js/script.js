@@ -28,3 +28,7 @@ for(var item of list) {
 cleanList.push(item);
   }}
 return cleanList;};
+
+var newGroceries = deleteDuplicates(groceries);
+
+console.log(newGroceries.length);
