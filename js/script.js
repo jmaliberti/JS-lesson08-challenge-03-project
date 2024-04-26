@@ -32,3 +32,7 @@ return cleanList;};
 var newGroceries = deleteDuplicates(groceries);
 
 console.log(newGroceries.length);
+
+newGroceries.forEach(function (cleanList, index){
+  console.log(`#${index+1} ${cleanList}`);
+});
